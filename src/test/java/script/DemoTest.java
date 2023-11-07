@@ -23,7 +23,7 @@ public class DemoTest extends BaseTest
 		
 		Reporter.log("Data:"+d,true);
 		
-		String s=Excel.setData("./data/input.xlsx", "Sheet1",0,0,"training");
+//		String s=Excel.setData("./data/input.xlsx", "Sheet1",0,0,"training");
 		
 
 		
