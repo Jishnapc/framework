@@ -33,7 +33,7 @@ public class BaseTest
 	@BeforeMethod
 	public void preCondition
 			(
-				@Optional("no") String grid,
+				@Optional("yes") String grid,
 				@Optional("https://oauth-jishna.pc-13467:1e28c5da-c51e-44c3-93c4-26c352300941@ondemand.eu-central-1.saucelabs.com:443/wd/hub") String gridURL,	// grid or soaucelab url				
 				@Optional("chrome") String browser,//chrome browser
 				@Optional("https://opensource-demo.orangehrmlive.com/") String appURL,
